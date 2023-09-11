@@ -54,11 +54,7 @@
 
 <table>
   <tr>
-    <td>
-      <a href="https://github.com/JoeMinhee">
-        <img src="https://avatars.githubusercontent.com/u/142809585?s=96&v=4" width="120px" height="120px"/>
-      </a>  
-    </td>
+    
   <td>
       <a href="https://github.com/zivivle">
         <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
@@ -76,9 +72,6 @@
     </td>
   </tr>
   <tr>
-    <th>
-       조민희
-    </th>
     <th>
        지성경
     </th>
