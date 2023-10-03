@@ -88,7 +88,7 @@
 ```
 매일 1장(1챕터)씩 읽고 정리
 - 구글 시트의 체크 필수
-매주 금요일 오후 8시 회의
+매주 화요일 오후 8시 회의
 - 그 주에 읽은 부분을 랜덤으로 3명을 선정해 발표를 진행합니다.
 - 발표에 대해서 질의응답 시간을 가지고 회의를 종료합니다.
 ```
@@ -96,82 +96,115 @@
 
 ### 항목
 ```
-5주차 목표 
+6주차 목표 
 
-📌 22장 this
-22.1 this 키워드
-22.2 함수 호출 방식과 this 바인딩
-     22.2.1 일반 함수 호출
-     22.2.2 메서드 호출
-     22.2.3 생성자 함수 호출
-     22.2.4 Function.prototype.apply/call/bind 메서드에 의한 간접 호출
+📌 27장 배열
+27.1 배열이란?
+27.2 자바스크립트 배열은 배열이 아니다
+27.3 length 프로퍼티와 희소 배열
+27.4 배열 생성
+      27.4.1 배열 리터럴
+      27.4.2 Array 생성자 함수
+      27.4.3 Array.of
+      27.4.4 Array.from
+27.5 배열 요소의 참조
+27.6 배열 요소의 추가와 갱신
+27.7 배열 요소의 삭제
+27.8 배열 메서드
+      27.8.1 Array.isArray
+      27.8.2 Array.prototype.indexOf
+      27.8.3 Array.prototype.push
+      27.8.4 Array.prototype.pop
+      27.8.5 Array.prototype.unshift
+      27.8.6 Array.prototype.shift
+      27.8.7 Array.prototype.concat
+      27.8.8 Array.prototype.splice
+      27.8.9 Array.prototype.slice
+      27.8.10 Array.prototype.join
+      27.8.11 Array.prototype.reverse
+      27.8.12 Array.prototype.fill
+      27.8.13 Array.prototype.includes
+      27.8.14 Array.prototype.flat
+27.9 배열 고차 함수
+      27.9.1 Array.prototype.sort
+      27.9.2 Array.prototype.forEach
+      27.9.3 Array.prototype.map
+      27.9.4 Array.prototype.filter
+      27.9.5 Array.prototype.reduce
+      27.9.6 Array.prototype.some
+      27.9.7 Array.prototype.every
+      27.9.8 Array.prototype.find
+      27.9.9 Array.prototype.findIndex
+      27.9.10 Array.prototype.flatMap
 
-📌 23장 실행 컨텍스트
-23.1 소스코드의 타입
-23.2 소스코드의 평가와 실행
-23.3 실행 컨텍스트의 역할
-23.4 실행 컨텍스트 스택
-23.5 렉시컬 환경
-23.6 실행 컨텍스트의 생성과 식별자 검색 과정
-     23.6.1 전역 객체 생성
-     23.6.2 전역 코드 평가
-     24.6.3 전역 코드 실행
-     24.6.4 foo 함수 코드 평가
-     23.6.5 foo 함수 코드 실행
-     23.6.6 bar 함수 코드 평가
-     23.6.7 bar 함수 코드 실행
-     23.6.8 bar 함수 코드 실행 종료
-     23.6.9 foo 함수 코드 실행 종료
-     23.6.10 전역 코드 실행 종료
-23.7 실행 컨텍스트와 블록 레벨 스코프
+📌 28장 Number
+28.1 Number 생성자 함수
+28.2 Number 프로퍼티
+      28.2.1 Number.EPSILON
+      28.2.2 Number.MAX_VALUE
+      28.2.3 Number.MIN_VALUE
+      28.2.4 Number.MAX_SAFE_INTEGER
+      28.2.5 Number.MIN_SAFE_INTEGER
+      28.2.6 Number.POSITIVE_INFINITY
+      28.2.7 Number.NEGATIVE_INFINITY
+      28.2.8 Number.NaN
+28.3 Number 메서드
+      28.3.1 Number.isFinite
+      28.3.2 Number.isInteger
+      28.3.3 Number.isNaN
+      28.3.4 Number.isSafeInteger
+      28.3.5 Number.prototype.toExponential
+      28.3.6 Number.prototype.toFixed
+      28.3.7 Number.prototype.toPrecision
+      28.3.8 Number.prototype.toString
 
-📌 24장 클로저
-24.1 렉시컬 스코프
-24.2 함수 객체의 내부 슬롯 [[Environment]]
-24.3 클로저와 렉시컬 환경
-24.4 클로저의 활용
-24.5 캡슐화와 정보 은닉
-24.6 자주 발생하는 실수
+📌 29장 Math
+29.1 Math 프로퍼티
+      29.1.1 Math.PI
+29.2 Math 메서드
+      29.2.1 Math.abs
+      29.2.2 Math.round
+      29.2.3 Math.ceil
+      29.2.4 Math.floor
+      29.2.5 Math.sqrt
+      29.2.6 Math.random
+      29.2.7 Math.pow
+      29.2.8 Math.max
+      29.2.9 Math.min
 
-📌 25장 클래스
-25.1 클래스는 프로토타입의 문법적 설탕인가?
-25.2 클래스 정의
-25.3 클래스 호이스팅
-25.4 인스턴스 생성
-25.5 메서드
-      25.5.1 constructor
-      25.5.2 프로토타입 메서드
-      25.5.3 정적 메서드
-      25.5.4 정적 메서드와 프로토타입 메서드의 차이
-      25.5.5 클래스에서 정의한 메서드의 특징
-25.6 클래스의 인스턴스 생성 과정
-25.7 프로퍼티
-     25.7.1 인스턴스 프로퍼티
-     25.7.2 접근자 프로퍼티
-     25.7.3 클래스 필드 정의 제안
-     25.7.4 private 필드 정의 제안
-     25.7.5 static 필드 정의 제안
-25.8 상속에 의한 클래스 확장
-     25.8.1 클래스 상속과 생성자 함수 상속
-     25.8.2 extends 키워드
-     25.8.3 동적 상속
-     25.8.4 서브클래스의 constructor
-     25.8.5 super 키워드
-     25.8.6 상속 클래스의 인스턴스 생성 과정
-     25.8.7 표준 빌트인 생성자 함수 확장
-
-📌 26장 ES6 함수의 추가 기능
-26.1 함수의 구분
-26.2 메서드
-26.3 화살표 함수
-     26.3.1 화살표 함수 정의
-     26.3.2 화살표 함수와 일반 함수의 차이
-     26.3.3 this
-     26.3.4 super
-     26.3.5 arguments
-26.4 Rest 파라미터
-     26.4.1 기본 문법
-     26.4.2 Rest 파라미터와 arguments 객체
-26.5 매개변수 기본값
+📌 30장 Date
+30.1 Date 생성자 함수
+      30.1.1 new Date()
+      30.1.2 new Date(milliseconds)
+      30.1.3 new Date(dateString)
+      30.1.4 new Date(year, month, day, hour, minute, second, millisecond])
+30.2 Date 메서드
+      30.2.1 Date.now
+      30.2.2 Date.parse
+      30.2.3 Date.UTC
+      30.2.4 Date.prototype.getFullYear
+      30.2.5 Date.prototype.setFullYear
+      30.2.6 Date.prototype.getMonth
+      30.2.7 Date.prototype.setMonth
+      30.2.8 Date.prototype.getDate
+      30.2.9 Date.prototype.setDate
+      30.2.10 Date.prototype.getDay
+      30.2.11 Date.prototype.getHours
+      30.2.12 Date.prototype.setHours
+      30.2.13 Date.prototype.getMinutes
+      30.2.14 Date.prototype.setMinutes
+      30.2.15 Date.prototype.getSeconds
+      30.2.16 Date.prototype.setSeconds
+      30.2.17 Date.prototype.getMilliseconds
+      30.2.18 Date.prototype.setMilliseconds
+      30.2.19 Date.prototype.getTime
+      30.2.20 Date.prototype.setTime
+      30.2.21 Date.prototype.getTimezoneOffset
+      30.2.22 Date.prototype.toDateString
+      30.2.23 Date.prototype.toTimeString
+      30.2.24 Date.prototype.toISOString
+      30.2.25 Date.prototype.toLocaleString
+      30.2.26 Date.prototype.toLocaleTimeString
+30.3 Date를 활용한 시계 예제
 
 ```
