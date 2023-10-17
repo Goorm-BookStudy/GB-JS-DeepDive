@@ -61,11 +61,6 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/charmingGyu">
-        <img src="https://avatars.githubusercontent.com/u/133394457?s=96&v=4" width="120px" height="120px"/>
-      </a>
-    </td>
-    <td>
       <a href="https://github.com/summermong">
         <img src="https://avatars.githubusercontent.com/u/124887974?s=96&v=4" width="120px" height="120px"/>
       </a>
@@ -74,9 +69,6 @@
   <tr>
     <th>
        지성경
-    </th>
-    <th>
-       차민규
     </th>
     <th>
        황윤
