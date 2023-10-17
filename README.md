@@ -30,11 +30,6 @@
         <img src="https://avatars.githubusercontent.com/u/114549939?s=96&v=4" width="120px" height="120px"/>
       </a>  
     </td>
-    <td>
-      <a href="https://github.com/naringst">
-        <img src="https://avatars.githubusercontent.com/u/92130993?s=96&v=4" width="120px" height="120px"/>
-      </a>  
-    </td>
   </tr>
   <tr>
     <th>
@@ -46,15 +41,16 @@
     <th>
       박하민
     </th>
-    <th>
-      정나리
-    </th>
   </tr>
 </table>
 
 <table>
   <tr>
-    
+    <td>
+      <a href="https://github.com/naringst">
+        <img src="https://avatars.githubusercontent.com/u/92130993?s=96&v=4" width="120px" height="120px"/>
+      </a>  
+    </td>
   <td>
       <a href="https://github.com/zivivle">
         <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
@@ -67,6 +63,9 @@
     </td>
   </tr>
   <tr>
+    <th>
+      정나리
+    </th>
     <th>
        지성경
     </th>
