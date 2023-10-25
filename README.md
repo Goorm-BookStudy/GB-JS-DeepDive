@@ -46,11 +46,6 @@
 
 <table>
   <tr>
-    <td>
-      <a href="https://github.com/naringst">
-        <img src="https://avatars.githubusercontent.com/u/92130993?s=96&v=4" width="120px" height="120px"/>
-      </a>  
-    </td>
   <td>
       <a href="https://github.com/zivivle">
         <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
@@ -63,9 +58,6 @@
     </td>
   </tr>
   <tr>
-    <th>
-      정나리
-    </th>
     <th>
        지성경
     </th>
@@ -87,85 +79,41 @@
 
 ### 항목
 ```
-7주차 목표 
+8주차 목표 
 
-📌 31장 RegExp
-31.1 정규 표현식이란?
-31.2 정규 표현식의 생성
-31.3 RegExp 메서드
-      31.3.1 RegExp.prototype.exec
-      31.3.2 RegExp.prototype.test
-      31.3.3 String.prototype.match
-31.4 플래그
-31.5 패턴
-      31.5.1 문자열 검색
-      31.5.2 임의의 문자열 검색
-      31.5.3 반복 검색
-      31.5.4 OR 검색
-      31.5.5 NOT 검색
-      31.5.6 시작 위치로 검색
-      31.5.7 마지막 위치로 검색
-31.6 자주 사용하는 정규표현식
-      31.6.1 특정 단어로 시작하는지 검사
-      31.6.2 특정 단어로 끝나는지 검사
-      31.6.3 숫자로만 이루어진 문자열인지 검사
-      31.6.4 하나 이상의 공백으로 시작하는지 검사
-      31.6.5 아이디로 사용 가능한지 검사
-      31.6.6 메일 주소 형식에 맞는지 검사
-      31.6.7 핸드폰 번호 형식에 맞는지 검사
-      31.6.8 특수 문자 포함 여부 검사
+📌 36장 디스트럭처링 할당
+36.1 배열 디스트럭처링 할당
+36.2 객체 디스트럭처링 할당
 
-📌 32장 String
-32.1 String 생성자 함수
-32.2 length 프로퍼티
-32.3 String 메서드
-      32.3.1 String.prototype.indexOf
-      32.3.2 String.prototype.search
-      32.3.3 String.prototype.includes
-      32.3.4 String.prototype.startsWith
-      32.3.5 String.prototype.endsWith
-      32.3.6 String.prototype.charAt
-      32.3.7 String.prototype.substring
-      32.3.8 String.prototype.slice
-      32.3.9 String.prototype.toUpperCase
-      32.3.10 String.prototype.toLowerCase
-      32.3.11 String.prototype.trim
-      32.3.12 String.prototype.repeat
-      32.3.13 String.prototype.replace
-      32.3.14 String.prototype.split
+📌 37장 Set과 Map
+37.1 Set
+      37.1.1 Set 객체의 생성
+      37.1.2 요소 개수 확인
+      37.1.3 요소 추가
+      37.1.4 요소 존재 여부 확인
+      37.1.5 요소 삭제
+      37.1.6 요소 일괄 삭제
+      37.1.7 요소 순회
+      37.1.8 집합 연산
+37.2 Map
+      37.2.1 Map 객체의 생성
+      37.2.2 요소 개수 확인
+      37.2.3 요소 추가
+      37.2.4 요소 취득
+      37.2.5 요소 존재 여부 확인
+      37.2.6 요소 삭제
+      37.2.7 요소 일괄 삭제
+      37.2.8 요소 순회
 
-📌 33장 7번째 데이터 타입 Symbol
-33.1 심벌이란?
-33.2 심벌 값의 생성
-      33.2.1 Symbol 함수
-      33.2.2 Symbol.for / Symbol.keyFor 메서드
-33.3 심벌과 상수
-33.4 심벌과 프로퍼티 키
-33.5 심벌과 프로퍼티 은닉
-33.6 심벌과 표준 빌트인 객체 확장
-33.7 Well-known Symbol
-
-📌 34장 이터러블
-34.1 이터레이션 프로토콜
-      34.1.1 이터러블
-      34.1.2 이터레이터
-34.2 빌트인 이터러블
-34.3 for...of 문
-34.4 이터러블과 유사 배열 객체
-34.5 이터레이션 프로토콜의 필요성
-34.6 사용자 정의 이터러블
-      34.6.1 사용자 정의 이터러블 구현
-      34.6.2 이터러블을 생성하는 함수
-      34.6.3 이터러블이면서 이터레이터인 객체를 생성하는 함수
-      34.6.4 무한 이터러블과 지연 평가
-
-📌 35장 스프레드 문법
-35.1 함수 호출문의 인수 목록에서 사용하는 경우
-35.2 배열 리터럴 내부에서 사용하는 경우
-      35.2.1 concat
-      35.2.2 splice
-      35.2.3 배열 복사
-      35.2.4 이터러블을 배열로 변환
-35.3 객체 리터럴 내부에서 사용하는 경우
+📌 38장 브라우저의 렌더링 과정
+38.1 요청과 응답
+38.2 HTTP 1.1과 HTTP 2.0
+38.3 HTML 파싱과 DOM 생성
+38.4 CSS 파싱과 CSSOM 생성
+38.5 렌더 트리 생성
+38.6 자바스크립트 파싱과 실행
+38.7 리플로우와 리페인트
+38.8 자바스크립트 파싱에 의한 HTML 파싱 중단
+38.9 script 태그의 async/defer 어트리뷰트
 
 ```
