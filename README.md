@@ -3,9 +3,6 @@
 프론트엔드 필수 도서인 "모던 자바스크립트 Deep Dive" 완독 스터디
 ```
 
-### 링크
-<a href="https://docs.google.com/spreadsheets/d/1-7V_po0-FyWRaT8_um9nPkDPbdeEb2qPtAo8PAUI5G8/edit?usp=sharing">구글 시트</a>
-
 ### 기간
 ```
  8/28 ~ 11/13
