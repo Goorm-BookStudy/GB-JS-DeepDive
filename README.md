@@ -13,6 +13,11 @@
 <table>
   <tr>
     <td>
+      <a href="https://github.com/zivivle">
+        <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
+      </a>
+    </td>
+     <td>
       <a href="https://github.com/dbswl701">
         <img src="https://avatars.githubusercontent.com/u/73208914?s=96&v=4" width="120px" height="120px"/>
       </a>  
@@ -22,31 +27,27 @@
         <img src="https://avatars.githubusercontent.com/u/131167225?s=96&v=4" width="120px" height="120px"/>
       </a>  
     </td>
-     <td>
-      <a href="https://github.com/mintmin0320">
-        <img src="https://avatars.githubusercontent.com/u/114549939?s=96&v=4" width="120px" height="120px"/>
-      </a>  
-    </td>
   </tr>
   <tr>
+   <th>
+       지성경(스터디 팀장)
+    </th>
     <th>
       강윤지
     </th>
     <th>
       김형준
     </th>
-    <th>
-      박하민
-    </th>
+    
   </tr>
 </table>
 
 <table>
   <tr>
   <td>
-      <a href="https://github.com/zivivle">
-        <img src="https://avatars.githubusercontent.com/u/123868471?v=4" width="120px" height="120px"/>
-      </a>
+      <a href="https://github.com/mintmin0320">
+        <img src="https://avatars.githubusercontent.com/u/114549939?s=96&v=4" width="120px" height="120px"/>
+      </a>  
     </td>
     <td>
       <a href="https://github.com/summermong">
@@ -56,7 +57,7 @@
   </tr>
   <tr>
     <th>
-       지성경
+      박하민
     </th>
     <th>
        황윤
